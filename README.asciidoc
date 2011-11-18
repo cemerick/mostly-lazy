@@ -1,0 +1,1 @@
+A collection of miscellaneous bits related to http://mostlylazy.com[Mostly λazy], a podcast for people interested in Clojure.
