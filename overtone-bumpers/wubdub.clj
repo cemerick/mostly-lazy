@@ -102,7 +102,8 @@
 
 ;;start things up
 
-(let [drum-g (group :tail @synth-group*)]
+(do
+  (def drum-g (group :tail @synth-group*))
   (kick-i :tgt drum-g)
   (hhat-i :tgt drum-g)
   (hht2-i :tgt drum-g)
